@@ -74,7 +74,41 @@ What network do you use when you browse www.google.com from your smartphone (not
 --> The correct answer is : 1- Internet  
 The Internet is a global network of networks that allows devices from different locations to communicate and access online resources. Mobile devices, such as smartphones, connect to the Internet using cellular data networks provided by mobile service providers. This enables users to access websites, services, and applications from anywhere with cellular coverage.  
 
-### Question 3: 
+## Task 2 : MAC and IP address  
+
+### Question 0:  
+
+What is a MAC address?  
+
+1- The name of a network interface  
+2- The unique identifier of a network interface  
+3- A network interface  
+
+--> The correct answer is : 2- The unique identifier of a network interface.  
+A MAC address (Media Access Control address) is a unique identifier assigned to a network interface, such as a network card or a wireless adapter, by the manufacturer. It is a hardware address that is permanently assigned to the device during its production.
+
+The MAC address is a 48-bit (or 6-byte) address and is typically represented in a hexadecimal format, with groups of two digits separated by colons or hyphens. It serves as a unique identifier for the network interface at the data link layer of the OSI model.
+
+Each network interface, whether it's an Ethernet card, Wi-Fi adapter, or other networking device, has a distinct MAC address. This address is used to identify the device on the local network, allowing data to be sent and received by the correct device. MAC addresses play a crucial role in Ethernet and Wi-Fi communications, where they are used for addressing and routing data packets within a local network.  
+
+### Questtion 1:
+
+What is an IP address?  
+
+1- Is to devices connected to a network what postal address is to houses  
+2- The unique identifier of a network interface  
+3- Is a number that network devices use to connect to networks  
+
+--> The correction answer is : 1- Is to devices connected to a network what postal address is to houses.  
+An IP address (Internet Protocol address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. It serves as a unique identifier for a device or a network interface within a network.
+
+An IP address is similar to a postal address for houses in the sense that it enables devices connected to a network to be located and communicated with. It allows devices to send and receive data across networks and enables network communication by providing a standardized addressing scheme.
+
+IP addresses are typically represented as a series of numbers separated by periods. There are two main types of IP addresses: IPv4 (Internet Protocol version 4) and IPv6 (Internet Protocol version 6). IPv4 addresses are composed of four sets of numbers, while IPv6 addresses are longer and consist of eight sets of hexadecimal digits.
+
+Devices use IP addresses to connect to networks, communicate with other devices, and access resources on the Internet. The IP address is essential for routing data packets to the correct destination within a network or across the internet.  
+
+
 
 
 
