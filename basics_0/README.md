@@ -144,7 +144,36 @@ TCP employs acknowledgment mechanisms, where the sender expects acknowledgments 
 The statement "May I increase the rate at which I am sending you boxes?" does not align with the characteristics of TCP. TCP utilizes flow control mechanisms to regulate the rate of data transmission based on the receiver's ability to handle and process the incoming data. The sender adjusts the transmission rate dynamically based on the acknowledgments and feedback received from the receiver. Therefore, the sender would not directly ask for permission to increase the sending rate, but rather it would be controlled automatically by the TCP protocol based on the network conditions and congestion control algorithms.  
 
 
+## Task 4 : TCP and UDP ports :  
 
+Once packets have been sent to the right network device using IP using either UDP or TCP as a mode of transportation, it needs to actually enter the network device.   
+
+If we continue the comparison of a network device to your house, where IP address is like your postal address, UDP and TCP ports are like the windows and doors of your place. A TCP/UDP network device has 65535 ports. Some of them are officially reserved for a specific usage, some of them are known to be used for a specific usage (but nothing is officially declared) and the rest are free of use.  
+
+While the full list of ports should not be memorized, it is important to know the most used ports, let’s start by remembering 3 of them:  
+
+- 22 for SSH
+- 80 for HTTP
+- 443 for HTTPS  
+Note that a specific `IP + port = socket`.  
+
+Write a Bash script that displays listening ports:
+
+- That only shows listening sockets
+- That shows the PID and name of the program to which each socket belongs
+
+
+## Task 5. Is the host on the network :
+
+The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command ping uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.  
+
+Write a Bash script that pings an IP address passed as an argument.  
+
+Requirements:
+
+- Accepts a string as an argument
+- Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
+- Ping the IP 5 times
 
 
 
