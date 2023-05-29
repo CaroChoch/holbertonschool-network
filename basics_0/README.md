@@ -108,6 +108,45 @@ IP addresses are typically represented as a series of numbers separated by perio
 
 Devices use IP addresses to connect to networks, communicate with other devices, and access resources on the Internet. The IP address is essential for routing data packets to the correct destination within a network or across the internet.  
 
+## Task 3. UDP and TCP  
+
+### Question 0:  
+
+Which statement is correct for the TCP box:  
+1- It is a protocol that is transferring data in a slow way but surely  
+2- It is a protocol that is transferring data in a fast way and might loss data along in the process  
+
+--> The correct answer is : 1- It is a protocol that is transferring data in a slow way but surely.
+TCP is a reliable transport protocol that guarantees the delivery of data packets in a reliable and orderly manner. It ensures that data is transferred accurately and without loss or corruption. TCP achieves reliability through mechanisms such as acknowledgment, retransmission of lost packets, and flow control.
+
+While TCP provides reliability, it may introduce some additional overhead and latency compared to other protocols. However, its primary focus is on the secure and accurate delivery of data rather than speed.  
+
+### Question 1 :  
+
+Which statement is correct for the UDP box:  
+1- It is a protocol that is transferring data in a slow way but surely  
+2- It is a protocol that is transferring data in a fast way and might loss data along in the process  
+
+--> The correct answer is : 2- It is a protocol that is transferring data in a fast way and might loss data along in the process.  
+UDP is a connectionless transport protocol that offers a faster and more lightweight method of transmitting data compared to TCP. It provides a best-effort delivery mechanism, meaning that it does not guarantee the reliable delivery of packets. UDP does not have built-in mechanisms for acknowledgment, retransmission, or flow control like TCP.
+
+While UDP is faster due to its reduced overhead, it does not prioritize reliability. In certain scenarios where speed is crucial, such as real-time streaming, video conferencing, or online gaming, UDP is preferred. However, this speed advantage comes at the cost of potentially losing packets during transmission, as UDP does not have mechanisms to ensure reliable delivery.  
+
+### Question 3: 
+
+Which statement is correct for the TCP worker:  
+1- Have you received boxes x, y, z?  
+2- May I increase the rate at which I am sending you boxes?  
+
+--> The correct answer is : 1- Have you received boxes x, y, z?  
+TCP employs acknowledgment mechanisms, where the sender expects acknowledgments from the receiver for the successful delivery of packets. This allows the sender to ensure that all sent packets have been received by the recipient. In this context, the statement is asking for confirmation of packet receipt.
+
+The statement "May I increase the rate at which I am sending you boxes?" does not align with the characteristics of TCP. TCP utilizes flow control mechanisms to regulate the rate of data transmission based on the receiver's ability to handle and process the incoming data. The sender adjusts the transmission rate dynamically based on the acknowledgments and feedback received from the receiver. Therefore, the sender would not directly ask for permission to increase the sending rate, but rather it would be controlled automatically by the TCP protocol based on the network conditions and congestion control algorithms.  
+
+
+
+
+
 
 
 
